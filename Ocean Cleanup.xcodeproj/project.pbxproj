@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD723CF239F27BD00949EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD723CE239F27BD00949EEF /* AppDelegate.swift */; };
+		8DD723D1239F27BD00949EEF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8DD723D0239F27BD00949EEF /* GameScene.sks */; };
+		8DD723D3239F27BD00949EEF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8DD723D2239F27BD00949EEF /* Actions.sks */; };
+		8DD723D5239F27BD00949EEF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD723D4239F27BD00949EEF /* GameScene.swift */; };
+		8DD723D7239F27BD00949EEF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD723D6239F27BD00949EEF /* GameViewController.swift */; };
+		8DD723DA239F27BD00949EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD723D8239F27BD00949EEF /* Main.storyboard */; };
+		8DD723DC239F27C000949EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD723DB239F27C000949EEF /* Assets.xcassets */; };
+		8DD723DF239F27C000949EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD723DD239F27C000949EEF /* LaunchScreen.storyboard */; };
+		8DD723EA239F27C000949EEF /* Ocean_CleanupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD723E9239F27C000949EEF /* Ocean_CleanupTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DD723E6239F27C000949EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DD723C3239F27BD00949EEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD723CA239F27BD00949EEF;
+			remoteInfo = "Ocean Cleanup";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DD723CB239F27BD00949EEF /* Ocean Cleanup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ocean Cleanup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD723CE239F27BD00949EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DD723D0239F27BD00949EEF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8DD723D2239F27BD00949EEF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		8DD723D4239F27BD00949EEF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8DD723D6239F27BD00949EEF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8DD723D9239F27BD00949EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DD723DB239F27C000949EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DD723DE239F27C000949EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DD723E0239F27C000949EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD723E5239F27C000949EEF /* Ocean CleanupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ocean CleanupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD723E9239F27C000949EEF /* Ocean_CleanupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean_CleanupTests.swift; sourceTree = "<group>"; };
+		8DD723EB239F27C000949EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD723C8239F27BD00949EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD723E2239F27C000949EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DD723C2239F27BC00949EEF = {
+			isa = PBXGroup;
+			children = (
+				8DD723CD239F27BD00949EEF /* Ocean Cleanup */,
+				8DD723E8239F27C000949EEF /* Ocean CleanupTests */,
+				8DD723CC239F27BD00949EEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DD723CC239F27BD00949EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD723CB239F27BD00949EEF /* Ocean Cleanup.app */,
+				8DD723E5239F27C000949EEF /* Ocean CleanupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DD723CD239F27BD00949EEF /* Ocean Cleanup */ = {
+			isa = PBXGroup;
+			children = (
+				8DD723CE239F27BD00949EEF /* AppDelegate.swift */,
+				8DD723D0239F27BD00949EEF /* GameScene.sks */,
+				8DD723D2239F27BD00949EEF /* Actions.sks */,
+				8DD723D4239F27BD00949EEF /* GameScene.swift */,
+				8DD723D6239F27BD00949EEF /* GameViewController.swift */,
+				8DD723D8239F27BD00949EEF /* Main.storyboard */,
+				8DD723DB239F27C000949EEF /* Assets.xcassets */,
+				8DD723DD239F27C000949EEF /* LaunchScreen.storyboard */,
+				8DD723E0239F27C000949EEF /* Info.plist */,
+			);
+			path = "Ocean Cleanup";
+			sourceTree = "<group>";
+		};
+		8DD723E8239F27C000949EEF /* Ocean CleanupTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DD723E9239F27C000949EEF /* Ocean_CleanupTests.swift */,
+				8DD723EB239F27C000949EEF /* Info.plist */,
+			);
+			path = "Ocean CleanupTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD723CA239F27BD00949EEF /* Ocean Cleanup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD723EE239F27C000949EEF /* Build configuration list for PBXNativeTarget "Ocean Cleanup" */;
+			buildPhases = (
+				8DD723C7239F27BD00949EEF /* Sources */,
+				8DD723C8239F27BD00949EEF /* Frameworks */,
+				8DD723C9239F27BD00949EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ocean Cleanup";
+			productName = "Ocean Cleanup";
+			productReference = 8DD723CB239F27BD00949EEF /* Ocean Cleanup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DD723E4239F27C000949EEF /* Ocean CleanupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD723F1239F27C000949EEF /* Build configuration list for PBXNativeTarget "Ocean CleanupTests" */;
+			buildPhases = (
+				8DD723E1239F27C000949EEF /* Sources */,
+				8DD723E2239F27C000949EEF /* Frameworks */,
+				8DD723E3239F27C000949EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DD723E7239F27C000949EEF /* PBXTargetDependency */,
+			);
+			name = "Ocean CleanupTests";
+			productName = "Ocean CleanupTests";
+			productReference = 8DD723E5239F27C000949EEF /* Ocean CleanupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DD723C3239F27BD00949EEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Ricardo Rodriguez";
+				TargetAttributes = {
+					8DD723CA239F27BD00949EEF = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					8DD723E4239F27C000949EEF = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 8DD723CA239F27BD00949EEF;
+					};
+				};
+			};
+			buildConfigurationList = 8DD723C6239F27BD00949EEF /* Build configuration list for PBXProject "Ocean Cleanup" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DD723C2239F27BC00949EEF;
+			productRefGroup = 8DD723CC239F27BD00949EEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD723CA239F27BD00949EEF /* Ocean Cleanup */,
+				8DD723E4239F27C000949EEF /* Ocean CleanupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DD723C9239F27BD00949EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD723DA239F27BD00949EEF /* Main.storyboard in Resources */,
+				8DD723D1239F27BD00949EEF /* GameScene.sks in Resources */,
+				8DD723DC239F27C000949EEF /* Assets.xcassets in Resources */,
+				8DD723DF239F27C000949EEF /* LaunchScreen.storyboard in Resources */,
+				8DD723D3239F27BD00949EEF /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD723E3239F27C000949EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD723C7239F27BD00949EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD723D5239F27BD00949EEF /* GameScene.swift in Sources */,
+				8DD723D7239F27BD00949EEF /* GameViewController.swift in Sources */,
+				8DD723CF239F27BD00949EEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD723E1239F27C000949EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD723EA239F27C000949EEF /* Ocean_CleanupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DD723E7239F27C000949EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DD723CA239F27BD00949EEF /* Ocean Cleanup */;
+			targetProxy = 8DD723E6239F27C000949EEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DD723D8239F27BD00949EEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DD723D9239F27BD00949EEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DD723DD239F27C000949EEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DD723DE239F27C000949EEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DD723EC239F27C000949EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DD723ED239F27C000949EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DD723EF239F27C000949EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5SBR68WW2;
+				INFOPLIST_FILE = "Ocean Cleanup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RicardoRodriguez.Ocean-Cleanup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DD723F0239F27C000949EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5SBR68WW2;
+				INFOPLIST_FILE = "Ocean Cleanup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RicardoRodriguez.Ocean-Cleanup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DD723F2239F27C000949EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5SBR68WW2;
+				INFOPLIST_FILE = "Ocean CleanupTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RicardoRodriguez.Ocean-CleanupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ocean Cleanup.app/Ocean Cleanup";
+			};
+			name = Debug;
+		};
+		8DD723F3239F27C000949EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5SBR68WW2;
+				INFOPLIST_FILE = "Ocean CleanupTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RicardoRodriguez.Ocean-CleanupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ocean Cleanup.app/Ocean Cleanup";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DD723C6239F27BD00949EEF /* Build configuration list for PBXProject "Ocean Cleanup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD723EC239F27C000949EEF /* Debug */,
+				8DD723ED239F27C000949EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD723EE239F27C000949EEF /* Build configuration list for PBXNativeTarget "Ocean Cleanup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD723EF239F27C000949EEF /* Debug */,
+				8DD723F0239F27C000949EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD723F1239F27C000949EEF /* Build configuration list for PBXNativeTarget "Ocean CleanupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD723F2239F27C000949EEF /* Debug */,
+				8DD723F3239F27C000949EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DD723C3239F27BD00949EEF /* Project object */;
+}
