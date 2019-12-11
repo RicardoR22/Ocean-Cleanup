@@ -38,7 +38,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 			   
 			   
 		let wait = SKAction.wait(forDuration: 2)
-		let sequence = SKAction.group([create, wait])
+		let sequence = SKAction.group([wait, create])
 		let repeatForever = SKAction.repeatForever(sequence)
 		self.run(repeatForever)
 		physicsWorld.contactDelegate = self
@@ -76,7 +76,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 	func makeBoat() {
 		boat.name = "boat"
 		boat.size = CGSize(width: 75, height: 100)
-		boat.position =  CGPoint(x: frame.midX, y: 100)
+		boat.position =  CGPoint(x: frame.midX, y: -50)
 		boat.physicsBody = SKPhysicsBody(circleOfRadius: max((boat.size.width) / 2.75, (boat.size.height) / 3))
 		boat.physicsBody?.usesPreciseCollisionDetection = true
 		boat.physicsBody?.isDynamic = false
@@ -89,18 +89,21 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 		rippleEffect.size = CGSize(width: 90, height: 130)
 		rippleEffect.zPosition = -1
 		
+		let moveUp = SKAction.moveTo(y: 100, duration: 1)
+		
+		
 		addChild(boat)
 		boat.addChild(rippleEffect)
-		
+		boat.run(moveUp)
 	}
 	
 	func createObjects() {
 		
 		if Bool.random() {
-			let ship = Obstacle()
-			ship.position = CGPoint(x: CGFloat.random(in: 0..<size.width), y: (view?.bounds.height)!)
-			ship.moveDown()
-			self.addChild(ship)
+			let obstacle = Obstacle()
+			obstacle.position = CGPoint(x: CGFloat.random(in: 0..<size.width), y: (view?.bounds.height)!)
+			obstacle.moveDown()
+			self.addChild(obstacle)
 		} else {
 			let fish = Fish()
 			fish.position = CGPoint(x: CGFloat.random(in: 0..<size.width), y: (view?.bounds.height)!)
