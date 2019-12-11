@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DD4F23323A0DDA900C3A335 /* SeaWaves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4F23223A0DDA900C3A335 /* SeaWaves.mp3 */; };
 		8DD723CF239F27BD00949EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD723CE239F27BD00949EEF /* AppDelegate.swift */; };
 		8DD723D3239F27BD00949EEF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8DD723D2239F27BD00949EEF /* Actions.sks */; };
 		8DD723D5239F27BD00949EEF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD723D4239F27BD00949EEF /* GameScene.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8DD4F23223A0DDA900C3A335 /* SeaWaves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SeaWaves.mp3; sourceTree = "<group>"; };
 		8DD723CB239F27BD00949EEF /* Ocean Cleanup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ocean Cleanup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD723CE239F27BD00949EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DD723D2239F27BD00949EEF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		8DD723F8239F3BCB00949EEF /* GameObjects */ = {
 			isa = PBXGroup;
 			children = (
+				8DD4F23223A0DDA900C3A335 /* SeaWaves.mp3 */,
 				8DD723FF23A0BABD00949EEF /* CollectedDebris.sks */,
 				8DD723F9239F3BDC00949EEF /* Obstacle.swift */,
 				8DD723FB239F3C9800949EEF /* Fish.swift */,
@@ -213,6 +216,7 @@
 				8DD723DA239F27BD00949EEF /* Main.storyboard in Resources */,
 				8DD723F7239F318600949EEF /* OceanBackground.atlas in Resources */,
 				8DD723DC239F27C000949EEF /* Assets.xcassets in Resources */,
+				8DD4F23323A0DDA900C3A335 /* SeaWaves.mp3 in Resources */,
 				8DD723DF239F27C000949EEF /* LaunchScreen.storyboard in Resources */,
 				8DD723D3239F27BD00949EEF /* Actions.sks in Resources */,
 			);

@@ -30,6 +30,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 		let create = SKAction.run {
 		   self.createObjects()
 		}
+		
+
+		let sound:SKAction = SKAction.playSoundFileNamed("SeaWaves.mp3", waitForCompletion: true)
+		let loopSound:SKAction = SKAction.repeatForever(sound)
+		self.run(loopSound)
 			   
 			   
 		let wait = SKAction.wait(forDuration: 2)
